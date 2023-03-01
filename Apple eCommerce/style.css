@@ -1,0 +1,131 @@
+/* reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* basic typography styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+/* header styles */
+header {
+    background-color: rgba(0, 0, 0, 0.692);
+    padding: 0.2rem;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav img {
+    margin-right: 0.90rem; 
+    padding-bottom: 0.5%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    font-size: small;
+}
+
+nav li {
+    margin-right: 2em;
+    padding-top: 0.5%;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* hero section styles */
+#hero {
+    background-image: url(https://images.unsplash.com/photo-1632211160318-b73ad4f26761);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+/* featured section styles */
+#featured {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2em;
+    background-color: #f5f5f5;
+}
+
+.product {
+    background-color: white;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 0.5em;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    width: 300px;
+}
+
+.product img {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.btn {
+    display: block;
+    margin-top: 1em;
+    background-color: #333;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #666;
+}
+
+/* footer styles */
+footer {
+    padding: 1em;
+    text-align: center;
+}
